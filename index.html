@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title>Check Loan Eligibility</title>
+    <center><img id="logo" src="static\images\score.png" alt="Image"></center>
+    
+    
+</head>
+<body background="/static/images/background1.jpg">
+    <center><h1>Check Loan Eligibility</h1></center>
+        
+   
+    <form action="/predict" method="post">
+        <label for="Num_Bank_Accounts">Num_Bank_Accounts:</label>
+        <input type="text" name="Num_Bank_Accounts" id="Num_Bank_Accounts"><br><br>
+        <label for="Annual_Income">Annual_Income:</label>
+        <input type="text" id="Annual_Income" name="Annual_Income"><br><br>
+        <label for="Interest_Rate">Interest_Rate:</label>
+        <input type="text" id="Interest_Rate" name="Interest_Rate"><br><br>
+        <label for="Monthly_Inhand_Salary">Monthly_Inhand_Salary:</label>
+        <input type="text" id="Monthly_Inhand_Salary" name="Monthly_Inhand_Salary"><br><br>
+        <label for="Num_Credit_Card">Num_Credit_Card:</label>
+        <input type="text" id="Num_Credit_Card" name="Num_Credit_Card"><br><br>
+        <label for="Delay_from_due_date">Delay_from_due_date:</label>
+        <input type="text" id="Delay_from_due_date" name="Delay_from_due_date"><br><br>
+        <label for="Num_of_Delayed_Payment">Num_of_Delayed_Payment:</label>
+        <input type="text" id="Num_of_Delayed_Payment" name="Num_of_Delayed_Payment"><br><br>
+        <label for="Num_Credit_Inquiries">Num_Credit_Inquiries:</label>
+        <input type="text" id="Num_Credit_Inquiries" name="Num_Credit_Inquiries"><br><br>
+        <label for="Outstanding_Debt">Outstanding_Debt:</label>
+        <input type="text" id="Outstanding_Debt" name="Outstanding_Debt"><br><br>
+        <label for="Total_EMI_per_month">Total_EMI_per_month:</label>
+        <input type="text" id="Total_EMI_per_month" name="Total_EMI_per_month"><br><br>
+        <label for="Changed_Credit_Limit">Changed_Credit_Limit:</label>
+        <input type="text" id="Changed_Credit_Limit" name="Changed_Credit_Limit"><br><br>
+        <label for="Monthly_Balance">Monthly_Balance:</label>
+        <input type="text" id="Monthly_Balance" name="Monthly_Balance"><br><br>
+        <label for="credit_mix">Credit Mix:</label>
+        <input type="text" name="Credit_Mix" id="credit_mix"><br><br>
+        <label for="Credit_Utilization_Ratio">Credit_Utilization_Ratio':</label>
+        <input type="text" id="Credit_Utilization_Ratio" name="Credit_Utilization_Ratio"><br><br>
+        <label for="Num_of_Loan">Num_of_Loan:</label>
+        <input type="text" id="Num_of_Loan" name="Num_of_Loan"><br><br>
+        <input type="submit" value="Check Eligibility">
+    </form>
+</body>
+</html>
